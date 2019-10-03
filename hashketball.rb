@@ -172,6 +172,13 @@ def player_stats(player_name)
   player_hash
 end
 
+def collect_all_player(game_hash)
+  all_players=nil
+  
+  
+  return all_players
+end
+
 def big_shoe_rebounds
   max_size=0
   output_rebounds=0
@@ -202,5 +209,7 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
+  output=nil
   
+  output
 end
