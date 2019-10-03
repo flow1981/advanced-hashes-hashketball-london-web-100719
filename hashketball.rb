@@ -188,23 +188,13 @@ def big_shoe_rebounds
     all_playernames.push(key)
   end
   
-  puts 'test access'
-  puts all_playernames
-  puts '--'
-  
   all_playernames.each do |player_name|
-  
-    #player_name="Alan Anderson"
-    puts player_name
   
     shoe_size=shoe_size(player_name)
     if shoe_size>max_size
-      puts 'if condition'
       max_size=shoe_size
-    
       stats=player_stats(player_name)
       output_rebounds=stats[:rebounds]
-      puts output_rebounds
     end
   end
   
