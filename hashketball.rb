@@ -148,16 +148,12 @@ def player_numbers(selected_team)
   team   = {}
   game   = game_hash
   
-  #select team hash for selected team
-  
   game.each do |team_key, team_value|
     if team_value[:team_name]==selected_team
      team=team_value
 
     end
   end
-  
-  #collect player numbers
   
   team[:players].each do |player|
     output.push(player[1][:number])
@@ -173,7 +169,7 @@ def player_stats(player_name)
 end
 
 def collect_all_player(game_hash)
-  all_players=nil
+  all_players=[]
   
   #collect all player names
   game_hash[:away][:players].each do |key,value|
