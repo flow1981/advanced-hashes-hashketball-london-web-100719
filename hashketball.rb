@@ -192,7 +192,7 @@ def big_shoe_rebounds
   puts all_playernames
   puts '--'
   
-  all_playernames.each do |playername|
+  all_playernames.each do |player_name|
   
     #player_name="Alan Anderson"
     puts player_name
