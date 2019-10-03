@@ -176,6 +176,12 @@ def big_shoe_rebounds
   max_size=0
   output_rebounds=0
   
+  game   = game_hash
+  
+  puts 'test access'
+  puts game[:away][:players]
+  puts '--'
+  
   player_name="Alan Anderson"
   puts player_name
   
@@ -188,6 +194,8 @@ def big_shoe_rebounds
     output_rebounds=stats[:rebounds]
     puts output_rebounds
   end
+  
+  
   output_rebounds
 end
 
