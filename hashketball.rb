@@ -165,7 +165,7 @@ def player_numbers(selected_team)
     puts player
     puts player.class
     puts player[1][:points]
-    output.push(player[1][:points])
+    output.push(player[1][:number])
     puts 'ends player'
     
   end
