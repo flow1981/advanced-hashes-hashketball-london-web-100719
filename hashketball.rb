@@ -167,9 +167,6 @@ def player_numbers(selected_team)
     
     
     player.each do |key,value|
-      puts 'test points'
-      puts value
-      puts 'ends test'
     
     end
   end
