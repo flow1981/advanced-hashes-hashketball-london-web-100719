@@ -164,9 +164,9 @@ def player_numbers(selected_team)
     puts player.class
     
     
-    player.each do |key|
+    player.each do |key,value|
       puts 'test points'
-      puts key
+      puts value
       puts 'ends test'
     
     end
