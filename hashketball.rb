@@ -127,6 +127,7 @@ def team_colors(selected_team)
   colors
 end
 
+
 #collect the team names
 def team_names()
   names=[]
