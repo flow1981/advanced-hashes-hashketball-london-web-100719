@@ -179,6 +179,6 @@ def big_shoe_rebounds
   puts player_name
   
   shoe_size=shoe_size(player_name)
-  puts show_size
+  puts shoe_size
 end
 
