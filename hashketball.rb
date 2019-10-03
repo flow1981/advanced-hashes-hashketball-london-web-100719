@@ -179,7 +179,7 @@ def big_shoe_rebounds
   game   = game_hash
   
   puts 'test access'
-  puts game[:away][:players]
+  puts game[:away][:players].keys
   puts '--'
   
   player_name="Alan Anderson"
