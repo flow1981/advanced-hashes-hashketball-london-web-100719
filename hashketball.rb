@@ -168,6 +168,6 @@ end
 
 def player_stats(player_name)
   player_hash=return_playerhash(player_name)
-  puts player_hash
+  player_hash
 end
 
