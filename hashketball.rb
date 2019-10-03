@@ -160,8 +160,11 @@ def player_numbers(selected_team)
   
   team[:players].each do |player|
 
+    puts 'player'
     puts player
     puts player.class
+    puts player.length
+    puts 'ends player'
     
     
     player.each do |key,value|
