@@ -175,7 +175,14 @@ end
 def collect_all_player(game_hash)
   all_players=nil
   
+  #collect all player names
+  game_hash[:away][:players].each do |key,value|
+    all_players.push(key)
+  end
   
+  game_hash[:home][:players].each do |key,value|
+    all_players.push(key)
+  end
   return all_players
 end
 
@@ -187,13 +194,15 @@ def big_shoe_rebounds
   game   = game_hash
   
   #collect all player names
-  game[:away][:players].each do |key,value|
-    all_playernames.push(key)
-  end
+  #game[:away][:players].each do |key,value|
+  #  all_playernames.push(key)
+  #end
   
-  game[:home][:players].each do |key,value|
-    all_playernames.push(key)
-  end
+  #game[:home][:players].each do |key,value|
+  #  all_playernames.push(key)
+  #end
+  
+  all_playernames=collect_all_player(game)
   
   all_playernames.each do |player_name|
   
