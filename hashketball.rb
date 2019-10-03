@@ -164,7 +164,7 @@ def player_numbers(selected_team)
     puts player.class
     puts 'ends test'
     
-    player.each do [key]
+    player.each do |key|
       puts key
     
     end
