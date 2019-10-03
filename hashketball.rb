@@ -185,6 +185,10 @@ def big_shoe_rebounds
     all_playernames.push(key)
   end
   
+  game[:home][:players].each do |key,value|
+    all_playernames.push(key)
+  end
+  
   puts 'test access'
   puts all_playernames
   puts '--'
