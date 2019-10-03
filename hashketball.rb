@@ -186,6 +186,7 @@ def big_shoe_rebounds
     
     stats=player_stats(player_name)
     output_rebounds=stats[:rebounds]
+    puts output_rebounds
   end
   output_size
 end
