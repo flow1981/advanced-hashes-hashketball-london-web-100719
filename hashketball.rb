@@ -159,12 +159,13 @@ def player_numbers(selected_team)
   #collect player numbers
   
   team[:players].each do |player|
-    puts 'test points'
+
     puts player
     puts player.class
     puts 'ends test'
     
     player.each do |key|
+      puts 'test points'
       puts key
     
     end
