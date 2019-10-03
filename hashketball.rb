@@ -173,15 +173,19 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  output_size=0
+  max_size=0
+  output_rebounds=0
   
   player_name="Alan Anderson"
   puts player_name
   
   shoe_size=shoe_size(player_name)
-  if shoe_size>output_size
+  if shoe_size>max_size
     puts 'if condition'
-    output_size=shoe_size
+    max_size=shoe_size
+    
+    stats=player_stats(player_name)
+    output_rebounds=stats[:rebounds]
   end
   output_size
 end
