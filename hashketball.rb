@@ -164,7 +164,7 @@ def player_numbers(selected_team)
     puts 'ends test'
     
     players.each do [player_name, player_values]
-    
+    end
   end
   
   
