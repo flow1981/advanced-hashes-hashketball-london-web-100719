@@ -142,16 +142,15 @@ end
 
 #collect player numbers of selected team_name
 def player_numbers(selected_team)
-  puts selected_team
-  output=[]
-  team ={}
   
-  game=game_hash
+  output = []
+  team   = {}
+  game   = game_hash
   
   #select team hash for selected team
+  
   game.each do |team_key, team_value|
     if team_value[:team_name]==selected_team
-     #puts team_value.class
      team=team_value
 
     end
@@ -161,11 +160,8 @@ def player_numbers(selected_team)
   
   team[:players].each do |player|
     output.push(player[1][:number])
-    puts 'ends player'
-    
   end
   
-  puts output
   output
 end
 
