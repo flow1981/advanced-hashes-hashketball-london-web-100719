@@ -172,7 +172,7 @@ def player_stats(player_name)
   player_hash
 end
 
-def big_shoe_rebound
+def big_shoe_rebounds
   
 end
 
