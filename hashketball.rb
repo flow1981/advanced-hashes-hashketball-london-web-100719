@@ -189,15 +189,6 @@ def big_shoe_rebounds
   
   game   = game_hash
   
-  #collect all player names
-  #game[:away][:players].each do |key,value|
-  #  all_playernames.push(key)
-  #end
-  
-  #game[:home][:players].each do |key,value|
-  #  all_playernames.push(key)
-  #end
-  
   all_playernames=collect_all_player(game)
   
   all_playernames.each do |player_name|
@@ -215,6 +206,22 @@ end
 
 def most_points_scored
   output=nil
+  all_playernames=[]
+  most_scored_points=0
+  most_scored_player='unknown'
+  game   = game_hash
+  
+  all_playernames=collect_all_player(game)
+  
+  all_playernames.each do |player_name|
+  
+    shoe_size=shoe_size(player_name)
+    if shoe_size>max_size
+      max_size=shoe_size
+      stats=player_stats(player_name)
+      output_rebounds=stats[:rebounds]
+    end
+  end
   
   output
 end
