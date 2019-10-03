@@ -169,7 +169,7 @@ def player_numbers(selected_team)
     
   end
   
-  
+  puts output
   output
 end
 
