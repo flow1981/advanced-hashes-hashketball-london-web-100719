@@ -163,7 +163,7 @@ def player_numbers(selected_team)
     puts 'player'
     puts player
     puts player.class
-    puts player[0]
+    puts player[1][:points]
     puts 'ends player'
     
     player[1].each do |key,value|
