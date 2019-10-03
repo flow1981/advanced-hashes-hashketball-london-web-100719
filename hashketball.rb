@@ -142,6 +142,7 @@ end
 
 #collect player numbers of selected team_name
 def player_numbers(selected_team)
+  puts selected_team
   output=[]
   team ={}
   
