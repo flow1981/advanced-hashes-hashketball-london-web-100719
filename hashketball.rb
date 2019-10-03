@@ -173,13 +173,15 @@ def player_stats(player_name)
 end
 
 def big_shoe_rebounds
-  shoe_size=0
+  output_size=0
   
   player_name="Alan Anderson"
   puts player_name
   
   shoe_size=shoe_size(player_name)
+  if shoe_size>output_size
+    output_size=
   
-  puts shoe_size
+  puts output_size
 end
 
