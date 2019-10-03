@@ -175,12 +175,20 @@ end
 def big_shoe_rebounds
   max_size=0
   output_rebounds=0
+  all_playernames=[]
   
   game   = game_hash
   
+
+  
+  game[:away][:players].each do |key,value|
+    all_playernames.push(key)
+  end
+  
   puts 'test access'
-  puts game[:away][:players].keys
+  puts all_playernames
   puts '--'
+  
   
   player_name="Alan Anderson"
   puts player_name
