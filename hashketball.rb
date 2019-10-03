@@ -188,6 +188,6 @@ def big_shoe_rebounds
     output_rebounds=stats[:rebounds]
     puts output_rebounds
   end
-  output_size
+  output_rebounds
 end
 
