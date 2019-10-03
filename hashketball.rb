@@ -161,7 +161,7 @@ def player_numbers(selected_team)
   team[:players].each do |players|
     puts 'test points'
     puts players
-    puts players.call
+    puts players.class
     puts 'ends test'
     
     players.each do [key, value]
