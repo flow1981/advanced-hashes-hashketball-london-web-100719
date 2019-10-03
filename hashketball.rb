@@ -164,13 +164,9 @@ def player_numbers(selected_team)
     puts player
     puts player.class
     puts player[1][:points]
+    output.push(player[1][:points])
     puts 'ends player'
     
-    player[1].each do |key,value|
-      puts "key"
-      puts key
-      puts "end key"
-    end
   end
   
   
