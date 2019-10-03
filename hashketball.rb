@@ -183,6 +183,6 @@ def big_shoe_rebounds
     puts 'if condition'
     output_size=shoe_size
   end
-  puts output_size
+  output_size
 end
 
