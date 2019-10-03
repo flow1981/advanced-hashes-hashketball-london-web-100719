@@ -180,6 +180,7 @@ def big_shoe_rebounds
   
   shoe_size=shoe_size(player_name)
   if shoe_size>output_size
+    puts 'if condition'
     output_size=shoe_size
   end
   puts output_size
