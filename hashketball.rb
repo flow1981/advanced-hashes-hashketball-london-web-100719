@@ -166,5 +166,7 @@ def player_numbers(selected_team)
   output
 end
 
-
+def player_stats(name)
+  
+end
 
