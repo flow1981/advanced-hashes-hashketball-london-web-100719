@@ -166,8 +166,13 @@ def player_numbers(selected_team)
   output
 end
 
+#output player stats
 def player_stats(player_name)
   player_hash=return_playerhash(player_name)
   player_hash
+end
+
+def big_shoe_rebound
+  
 end
 
