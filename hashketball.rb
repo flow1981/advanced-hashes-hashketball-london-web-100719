@@ -167,7 +167,9 @@ def player_numbers(selected_team)
     puts 'ends player'
     
     player[1].each do |key,value|
+      puts "key"
       puts key
+      puts "end key"
     end
   end
   
